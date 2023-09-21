@@ -1,0 +1,153 @@
+body{
+    background-color:white;
+    color:white;
+    font-family:'poppins',sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 80px;
+    background-color: rgb(16, 16, 62);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(149, 149, 233);
+    font-size: 1.01rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height:1.2px;
+    margin:40px 84px;
+}
+.left{
+    font-size: 1.5rem;
+    
+}
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.firstsection>div{
+   width: 35%;
+} 
+.leftsection{
+    font-size: 2.2rem;
+    margin: 80px 20px;
+    color:black;
+}
+.leftsection .button{
+    padding: 50px 0px;
+}
+.leftsection .btn{
+    margin: 55px 0px;
+    padding: 12px;
+    background-color: rgb(54, 31, 110);
+    color:white;
+    border:2px solid  white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightsection img{
+    width: 120%;
+    align-items: center;
+    }
+.purple{
+    color: rgb(125, 58, 188);
+}
+.text-gray{
+    color: rgb(134, 131, 131);
+}
+#element{
+    color: rgb(122, 58, 181);
+}
+.secondsection{
+    max-width:80vw;
+    margin:auto;
+    height: 80vh;
+}   
+.secondsection .box{
+    background:black;
+    width: 80vw;
+    height:2px;
+    margin: 56px 0px;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: black;
+    margin: 0 98px;
+}
+.verticle-title{ 
+    position: relative;
+    top: 80px;
+    left: -20px;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    left: -20px;
+    color: rgb(12, 12, 12);
+    width: 150px;
+    font-size: 12px;
+}
+.font{
+    color:rgb(156, 47, 210);
+    font-size: 10px;
+}
+.image-top{
+    width: 18px;
+    position: relative;
+    top: -22px;
+    left: -11px;
+}
+footer{
+    background: rgb(64, 64, 170);
+}
+.footer{
+    display:flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color:rgb(183, 175, 175);
+    padding: 12px 0px;
+}
+.footer-fourth{
+    margin:0px 5px;
+    position: relative;
+    left:200px;
+}
+.heading{
+    color: black;
+}
